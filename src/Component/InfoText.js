@@ -10,12 +10,12 @@ export default function InfoText() {
       .attr('width', width)
       .attr('height', height).attr('fill', 'white');
 
-    textContainer
-      .append('text')
-      .attr('transform', 'rotate(-90)')
-      .attr('x', -250)
-      .attr('y', 12)
-      .text('Timer Minutes');
+    // textContainer
+    //   .append('text')
+    //   .attr('transform', 'rotate(-90)')
+    //   .attr('x', -250)
+    //   .attr('y', 12)
+    //   .text('Timer Minutes');
 
     // textContainer
     //   .append('text')
@@ -27,8 +27,8 @@ export default function InfoText() {
 
     textContainer
       .append('text')
-      .attr('x', 950)
-      .attr('y', 150)
+      .attr('x', 920)
+      .attr('y', 350)
       .text('Legend')
       .style('font-size', '1.5em');
   };
