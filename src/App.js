@@ -25,14 +25,6 @@ export default function App() {
   useEffect(() => {
     let svg = d3.select('svg');
     let colors = ['#ffffcc', '#c2e699', '#78c679', '#238443', '#006837'];
-    // const educationBrew = () => {
-    //   svg
-    //     .selectAll('path')
-    //     .data(dataEducation)
-    //     .enter()
-    //     .append('path')
-    //     .attr('d', d3.geoPath());
-    // };
     infoText();
     drawCanvas();
 
