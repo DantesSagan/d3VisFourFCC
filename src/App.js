@@ -193,6 +193,13 @@ export default function App() {
           </g>
         </svg>
       </svg>
+      <br />
+      <span style={{ textAlign: 'center', fontSize: '18px' }}>
+        Coded and designed by
+        <a href='https://github.com/DantesSagan/d3VisFourFCC'>
+          @DantesSagan & d3VisFourFCC
+        </a>
+      </span>
     </div>
   );
 }
